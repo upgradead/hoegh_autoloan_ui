@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+
+#loan{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100;
+}
+
+#load td, #loan th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#loan tr:nth-child(even) {background-attachment: #f2f2f2;}
+#loan tr:hover {background-color:  #ddd}
+
+#loan th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: blueviolet;
+    color: white;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  td {
+    text-align: center;
+    height: 50px;
+    width: 200px;
+  } 
+
+  th {
+    text-align: left;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+  }
